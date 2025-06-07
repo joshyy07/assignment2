@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Me – Media</title>
+</head>
+<body>
+
+  <h1>A Message from Justin Joshua</h1>
+
+  <picture>
+    <!-- For laptops/desktops -->
+    <source media="(min-width: 1025px)" srcset="images/justin-laptop.jpg">
+    <!-- For tablets -->
+    <source media="(min-width: 768px)" srcset="images/justin-tablet.jpg">
+    <!-- For mobile -->
+    <source media="(max-width: 767px)" srcset="images/justin-mobile.jpg">
+    <!-- Fallback image -->
+    <img src="images/justin-default.jpg" alt="Portrait of Justin Joshua">
+  </picture>
+  <br>
+
+  <!-- <h2>Watch My Introduction</h2> -->
+  <video controls width="320">
+    <source src="videos/justin-intro.mp4" type="video/mp4">
+    <source src="videos/justin-intro.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+  <br>
+  <!-- <h2>Listen to My Story</h2> -->
+  <audio controls>
+    <source src="audio/justin-story.mp3" type="audio/mpeg">
+    <source src="audio/justin-story.ogg" type="audio/ogg">
+    Your browser does not support the audio element.
+  </audio>
+  <br>
+  <!-- <h2>Document Download</h2> -->
+  <p>
+    <a href="docs/justin-profile.pdf" download>Download My Full Profile (PDF)</a>
+  </p>
+
+
+</body>
+</html>
